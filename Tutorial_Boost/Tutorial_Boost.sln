@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread", "multitread\multitread.vcproj", "{6C4B663A-9F82-47C5-91B3-C8279C1082E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "date_time", "date_time\date_time.vcproj", "{61820963-CE8E-43DF-8DB0-71E1D3745CA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "python", "python\python.vcproj", "{8DAB72C2-A110-4296-B22C-D8A0315F5F65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "python_call", "python_call\python_call.vcproj", "{60ADF956-4E7C-411A-8AF0-69169970FC4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C4B663A-9F82-47C5-91B3-C8279C1082E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C4B663A-9F82-47C5-91B3-C8279C1082E0}.Debug|Win32.Build.0 = Debug|Win32
+		{6C4B663A-9F82-47C5-91B3-C8279C1082E0}.Release|Win32.ActiveCfg = Release|Win32
+		{6C4B663A-9F82-47C5-91B3-C8279C1082E0}.Release|Win32.Build.0 = Release|Win32
+		{61820963-CE8E-43DF-8DB0-71E1D3745CA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61820963-CE8E-43DF-8DB0-71E1D3745CA5}.Debug|Win32.Build.0 = Debug|Win32
+		{61820963-CE8E-43DF-8DB0-71E1D3745CA5}.Release|Win32.ActiveCfg = Release|Win32
+		{61820963-CE8E-43DF-8DB0-71E1D3745CA5}.Release|Win32.Build.0 = Release|Win32
+		{8DAB72C2-A110-4296-B22C-D8A0315F5F65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DAB72C2-A110-4296-B22C-D8A0315F5F65}.Debug|Win32.Build.0 = Debug|Win32
+		{8DAB72C2-A110-4296-B22C-D8A0315F5F65}.Release|Win32.ActiveCfg = Release|Win32
+		{8DAB72C2-A110-4296-B22C-D8A0315F5F65}.Release|Win32.Build.0 = Release|Win32
+		{60ADF956-4E7C-411A-8AF0-69169970FC4B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60ADF956-4E7C-411A-8AF0-69169970FC4B}.Debug|Win32.Build.0 = Debug|Win32
+		{60ADF956-4E7C-411A-8AF0-69169970FC4B}.Release|Win32.ActiveCfg = Release|Win32
+		{60ADF956-4E7C-411A-8AF0-69169970FC4B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

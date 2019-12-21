@@ -1,0 +1,38 @@
+﻿Build started 11/3/2014 12:14:41 AM.
+     1>Project "C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\tre\tre\tre-0.8.0\win32\tre.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../win32 /I../lib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TRE_EXPORTS /D TRE_DEBUG /D HAVE_CONFIG_H /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\lib\regcomp.c ..\lib\regerror.c ..\lib\regexec.c "..\lib\tre-ast.c" "..\lib\tre-compile.c" "..\lib\tre-match-approx.c" "..\lib\tre-match-backtrack.c" "..\lib\tre-match-parallel.c" "..\lib\tre-mem.c" "..\lib\tre-parse.c" "..\lib\tre-stack.c"
+         tre-stack.c
+         tre-parse.c
+         tre-mem.c
+         tre-match-parallel.c
+         tre-match-backtrack.c
+         tre-match-approx.c
+         tre-compile.c
+         tre-ast.c
+         regexec.c
+         regerror.c
+         regcomp.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\tre.dll" /INCREMENTAL /NOLOGO msvcprt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\tre.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\tre.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\tre.lib" /MACHINE:X86 /SAFESEH /DLL .\Debug\regcomp.obj
+         .\Debug\regerror.obj
+         .\Debug\regexec.obj
+         ".\Debug\tre-ast.obj"
+         ".\Debug\tre-compile.obj"
+         ".\Debug\tre-match-approx.obj"
+         ".\Debug\tre-match-backtrack.obj"
+         ".\Debug\tre-match-parallel.obj"
+         ".\Debug\tre-mem.obj"
+         ".\Debug\tre-parse.obj"
+         ".\Debug\tre-stack.obj"
+     1>regcomp.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library .\Debug\tre.lib and object .\Debug\tre.exp
+         tre.vcxproj -> C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\tre\tre\tre-0.8.0\win32\.\Debug\tre.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\tre.bsc" .\Debug\regcomp.sbr .\Debug\regerror.sbr .\Debug\regexec.sbr ".\Debug\tre-ast.sbr" ".\Debug\tre-compile.sbr" ".\Debug\tre-match-approx.sbr" ".\Debug\tre-match-backtrack.sbr" ".\Debug\tre-match-parallel.sbr" ".\Debug\tre-mem.sbr" ".\Debug\tre-parse.sbr" ".\Debug\tre-stack.sbr"
+     1>Done Building Project "C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\tre\tre\tre-0.8.0\win32\tre.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.71

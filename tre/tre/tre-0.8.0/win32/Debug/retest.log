@@ -1,0 +1,16 @@
+﻿Build started 11/3/2014 12:14:46 AM.
+     1>Project "C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\tre\tre\tre-0.8.0\win32\retest.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (.\Debug\) contains files shared from another project (tre.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../lib /I../win32 /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D HAVE_CONFIG_H /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\tests\retest.c
+         retest.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\retest.exe" /INCREMENTAL /NOLOGO Debug/tre.lib msvcprt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\retest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\retest.lib" /MACHINE:X86 /SAFESEH .\Debug\retest.obj
+         "C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\tre\tre\tre-0.8.0\win32\Debug\tre.lib"
+     1>retest.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         retest.vcxproj -> C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\tre\tre\tre-0.8.0\win32\.\Debug\retest.exe
+     1>Done Building Project "C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\tre\tre\tre-0.8.0\win32\retest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.63

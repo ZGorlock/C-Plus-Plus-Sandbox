@@ -1,0 +1,27 @@
+Year - 2013
+
+Species - 
+Count: 5
+California Condor: 
+  Populations: 34 541 15 816
+  Total:       1406
+  Average:     351.5
+Sea Turtle: 
+  Populations: 25 46 34 213 98 76
+  Total:       492
+  Average:     82
+Grizzly Bear: 
+  Populations: 98 67 46 34 21 76 87
+  Total:       429
+  Average:     61.2857
+Bald Eagle: 
+  Populations: 34 84 56
+  Total:       174
+  Average:     58
+Green Skink: 
+  Populations: 154 34 65 765 83
+  Total:       1101
+  Average:     220.2
+
+Total:       3602
+Average:     144.08
